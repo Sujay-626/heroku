@@ -15,6 +15,9 @@ const u_schema = mongoose.Schema({
     phno:{
         type:Number,
         required:true
+    },
+    admin_id:{
+        type:String
     }
 },{collection:'sample'});
 
